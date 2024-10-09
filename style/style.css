@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;0,400;1,300..800;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .btn{
+    color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+    border: none;
+    border-radius: 5px;
+background: rgb(253, 110, 10);
+padding: 15px 20px;
+  }
+  .btn2{
+  color: rgb(253, 110, 10);
+  background-color: rgb(255, 255, 255);
+  border:   2px solid rgb(253, 110, 10) ; 
+  font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+border-radius: 5px;
+padding: 15px 20px;
+margin-left: 15px;
+  }
+  .btns{
+    margin-top: 20px;
+  }
+header{
+    background: rgb(255, 248, 243);
+    background-image: url('../images/developer.png') , url('../images/header_bg.png');
+background-repeat: no-repeat;
+background-position: left , bottom right;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 50px 230px;
+}
+.nav-content{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+
+}
+.nav .nav-content a{
+    text-decoration: none;
+}
+.nav .title{
+    color: rgb(71, 71, 71);
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+
+}
+.nav .heading{
+font-size: 24px;
+font-weight: 800;
+line-height: 20px;
+letter-spacing: 0%;
+
+}
+
+.banner .banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.banner .banner-title{
+ margin: 0px 230px;
+
+}
+.banner .banner-heading{
+    color: rgb(71, 71, 71);
+font-size: 32px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+margin-top: 10px;
+}
+.banner .banner-name{
+    color: rgb(24, 24, 24);
+font-size: 65px;
+font-weight: 700;
+line-height: 98px;
+letter-spacing: 0%;
+margin-top: 10px;
+}
+.banner .desc{
+    color: rgb(117, 117, 117);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+margin-top: 10px 0px;
+}
+.about-us{
+    background: rgb(255, 248, 243);
+    margin: 130px 230px;
+    padding: 90px;
+    text-align: center;
+}
+.about-content{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+.about-content h1{
+    color: rgb(24, 24, 24);
+font-size: 32px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+margin-bottom: 30px;
+}
+.about-content .desc{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+   margin-bottom: 20px;
+}
+.about-list li{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+   margin-bottom: 20px;
+    list-style: none;
+}
+.about-list{
+display: flex;
+flex-direction: row;
+gap: 30px;
+justify-content: space-between;
+}
+.about-list pre{
+    color: rgb(71, 71, 71);
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+
+}
