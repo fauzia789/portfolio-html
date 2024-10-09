@@ -256,10 +256,11 @@ margin-top: 30px;
 .footer-content{
     display: flex;
     flex-direction: row;
-    /* gap: 30px; */
-    justify-content: space-between;
+    gap: 30px;
+    justify-items: center;
+    justify-content: space-around;
   text-align: start;
-    align-items: center;
+    align-content: center;
     margin-top:70px;
 }
 .footer{
